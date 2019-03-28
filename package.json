@@ -1,0 +1,40 @@
+{
+  "name": "drawing_program",
+  "version": "1.0.0",
+  "description": "credit suisse interview",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "build": "webpack --watch --config webpack.config.js"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IamRKG/drawing_program.git"
+  },
+  "author": "RKG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamRKG/drawing_program/issues"
+  },
+  "homepage": "https://github.com/IamRKG/drawing_program#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "babel-loader": "^8.0.5",
+    "canvas": "^2.4.1",
+    "jest": "^24.5.0",
+    "jest-environment-jsdom": "^24.5.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "babel-jest": "^24.5.0",
+    "canvas-prebuilt": "^2.0.0-alpha.14"
+  }
+}
